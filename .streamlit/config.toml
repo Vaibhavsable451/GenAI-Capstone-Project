@@ -2,4 +2,12 @@
 primaryColor = "#4F46E5"
 
 [server]
+port = 9000
+address = "0.0.0.0"
+headless = true
+enableCORS = false
+enableXsrfProtection = false
 maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false

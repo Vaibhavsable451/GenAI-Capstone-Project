@@ -1,7 +1,0 @@
-.env
-.streamlit/secrets.toml
-chroma_db/
-career_data.db
-__pycache__/
-*.pyc
-.venv/

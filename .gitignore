@@ -1,7 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 .streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases
 chroma_db/
 career_data.db
-__pycache__/
-*.pyc
-.venv/
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
