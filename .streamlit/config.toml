@@ -3,9 +3,3 @@ primaryColor = "#4F46E5"
 
 [server]
 maxUploadSize = 10
-headless = true
-enableCORS = false
-enableXsrfProtection = false
-
-[browser]
-gatherUsageStats = false
