@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PORT="${X_ZOHO_CATALYST_LISTEN_PORT:-9000}"
+PORT="${X_ZOHO_CATALYST_LISTEN_PORT:-8501}"
 echo "Starting Career Copilot on port $PORT..."
 
 # Determine python command
